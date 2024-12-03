@@ -1,0 +1,5 @@
+---
+# handlers file for metric
+- name: update_apt_cache
+  ansible.builtin.apt:
+    update_cache: true
